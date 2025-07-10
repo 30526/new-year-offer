@@ -260,8 +260,6 @@
 }
 
 .portfolio-images img {
-    display: inline-block;
-    gap: 24px;
     width: 390px;
     margin-bottom: 20px;
 }
