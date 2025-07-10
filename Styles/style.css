@@ -1,0 +1,75 @@
+/* Font  */
+* {
+    font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared Styles  */
+.banner {
+    width: 82.5%;
+    margin: 0px auto 120px auto;
+    border-radius: 16px;
+}
+
+.color-red {
+    color: #FF0000;
+}
+
+.title {
+    font-size: 48px;
+    color: #070211;
+}
+
+
+/* Banner Styles  */
+.banner {
+    background-image: url("../images/Banner\ Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center center;
+    margin-top: 50px;
+}
+
+.banner-text {
+    padding: 180px 340px;
+}
+
+.banner-text h4 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.banner-text h2 {
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+
+/* Discount section styles  */
+.discount {
+    margin-bottom: 120px;
+}
+
+.discount-content {
+    margin: 0px 400px 120px;
+    text-align: center;
+}
+
+.discount-content h2 {
+    font-size: 88px;
+    margin-bottom: 48px;
+}
+
+.discount-content p {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.discount-content h3 {
+    margin-bottom: 48px;
+}
