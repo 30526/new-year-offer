@@ -8,7 +8,8 @@
 /* Shared Styles  */
 .banner,
 .party-container,
-.location-container {
+.location-container,
+.offer-container {
     width: 90%;
     margin: 0px auto 120px auto;
     border-radius: 16px;
@@ -146,4 +147,44 @@
     margin-top: 48px;
 }
 
+/* Offer-Styles  */
+.offer-container {
+    display: flex;
+    justify-content: space-around;
+}
 
+.new-best-offer {
+    width: 390px;
+    padding: 104px 70px 104px 0px;
+}
+
+
+.circle-image {
+    border: 15px solid;
+    border-color: #FF0000;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.offer-information {
+    width: 390px;
+    padding: 104px 0px 104px 120px;
+}
+
+.offer-title {
+    font-size: 38px;
+    color: #070211;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.offer-sub-title {
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.offer-description {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 43px;
+}
