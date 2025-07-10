@@ -10,7 +10,8 @@
 .party-container,
 .location-container,
 .offer-container,
-.sale-container {
+.sale-container,
+.portfolio-container {
     width: 90%;
     margin: 0px auto 120px auto;
     border-radius: 16px;
@@ -232,3 +233,36 @@
 .sale-images {
     margin-top: 64px;
 }
+
+/* portfolio styles  */
+.portfolio-information h5 {
+    font-size: 24px;
+    margin-bottom: 16px
+}
+
+.portfolio-information h2 {
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+
+.portfolio-information p {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 48px;
+}
+
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.portfolio-images img {
+    display: inline-block;
+    gap: 24px;
+    width: 390px;
+    margin-bottom: 20px;
+}
+
+
