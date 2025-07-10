@@ -9,7 +9,8 @@
 .banner,
 .party-container,
 .location-container,
-.offer-container {
+.offer-container,
+.sale-container {
     width: 90%;
     margin: 0px auto 120px auto;
     border-radius: 16px;
@@ -187,4 +188,47 @@
     font-size: 20px;
     color: rgba(7, 2, 17, 0.6);
     margin-bottom: 43px;
+}
+
+/* Sale Section Styles  */
+.sale-container {
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+.sale-information {
+    text-align: center;
+}
+
+.sale-information h5 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #070211;
+    margin-bottom: 16px;
+}
+
+.sale-information h2 {
+    font-size: 72px;
+    font-weight: 800;
+    color: #070211;
+    margin-bottom: 28px;
+}
+
+.sale-information p {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.gift-box {
+    width: 800px;
+}
+
+.discount {
+    margin-bottom: 290px;
+}
+
+.sale-images {
+    margin-top: 64px;
 }
